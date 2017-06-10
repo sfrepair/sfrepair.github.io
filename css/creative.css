@@ -223,12 +223,18 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+
+.popup-gallery {
+  text-align: center;
+}
+
 .portfolio-box {
   position: relative;
-  display: block;
-  max-width: 650px;
+  display: inline-block;
+  width: 48%;
+  min-width: 400px;
   height: 330px;
-  margin: 0 auto;
+  padding: 20px;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -418,6 +424,8 @@ body {
 
 
 ul.footer-icons {
+  padding-top: 20px;
+  border-top: solid 1px gray;
   margin-left: -40px;
   list-style-type: none;
   text-align: center;
@@ -441,6 +449,9 @@ ul.footer-icons {
 .yelp-review {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: white;
 }
 
 .review-read-more .u-text-centered {
@@ -453,4 +464,29 @@ display:none;
 
 .map {
   margin-bottom: 30px;
+}
+
+.information {
+  text-align: center;
+}
+
+.contact-info {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+}
+
+.outline {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#reviews {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: gray;
 }
